@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0.6rem 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  opacity: 0.8;
+  padding: 0 3rem;
+  z-index: 10;
+}
+
+.navbar a {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  margin: 0 0.5rem;
+}
+
+.navbar a:hover {
+  border-bottom: #28a745 4px solid;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+
+.navbar .logo {
+  display: flex;
+  flex-wrap: nowrap;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+/* Hero section */
+
+.hero {
+  height: 100vh;
+  background: url(../img/home/showcase.jpg) center center/cover no-repeat;
+  position: relative;
+}
+
+.hero .content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero .content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero .content p {
+  font-size: 1.5rem;
+  max-width: 40rem;
+  margin-bottom: 3rem;
+}
+
+/* .hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.6;
+} */
+
+/* .hero * {
+  z-index: 9;
+} */
+
+/* Icons */
+
+.icons {
+  padding: 3rem;
+}
+
+.icons i {
+  background-color: #28a745;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.icons h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+
+
